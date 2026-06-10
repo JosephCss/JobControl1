@@ -1,0 +1,41 @@
+### Listar Empleado
+
+GET http://localhost:3000/empleado
+
+### Registrar Empleado
+POST http://localhost:3000/empleado
+Content-Type: application/json
+
+{
+  "nombre": "Luis",
+  "apellido": "Herrera",
+  "telefono": "0991234568",
+  "cedula": "1723456782",
+  "correo": "luis@gmail.com",
+  "salario": 1150.50,
+  "id_cargo": 3,
+  "id_departamento": 2
+}
+
+
+### Mostrar Empleado
+GET http://localhost:3000/empleado/4
+
+### Actualizar Empleado
+PUT http://localhost:3000/empleado/4
+Content-Type: application/json
+
+{
+  "nombre": "Luis",
+  "apellido": "Herrera",
+  "telefono": "0991234564",
+  "cedula": "1723456782",
+  "correo": "luis@gmail.com",
+  "salario": 2000.00,
+  "id_cargo": 4,
+  "id_departamento": 1
+}
+
+
+### Eliminar Empleado
+DELETE http://localhost:3000/empleado/2              
