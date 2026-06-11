@@ -7,30 +7,30 @@ POST http://localhost:3000/empleado
 Content-Type: application/json
 
 {
-  "nombre": "Luis",
-  "apellido": "Herrera",
-  "telefono": "0991234568",
-  "cedula": "1723456782",
-  "correo": "luis@gmail.com",
-  "salario": 1150.50,
-  "id_cargo": 3,
+  "nombre": "Pedro",
+  "apellido": "Jimenez",
+  "telefono": "0991234565",
+  "cedula": "1723456785",
+  "correo": "pedro@gmail.com",
+  "salario": 230,
+  "id_cargo": 2,
   "id_departamento": 2
 }
 
 
 ### Mostrar Empleado
-GET http://localhost:3000/empleado/4
+GET http://localhost:3000/empleado/5
 
 ### Actualizar Empleado
-PUT http://localhost:3000/empleado/4
+PUT http://localhost:3000/empleado/5
 Content-Type: application/json
 
 {
-  "nombre": "Luis",
+  "nombre": "Pedro",
   "apellido": "Herrera",
-  "telefono": "0991234564",
-  "cedula": "1723456782",
-  "correo": "luis@gmail.com",
+  "telefono": "0991234568",
+  "cedula": "1723456785",
+  "correo": "pedro@gmail.com",
   "salario": 2000.00,
   "id_cargo": 4,
   "id_departamento": 1
@@ -38,4 +38,4 @@ Content-Type: application/json
 
 
 ### Eliminar Empleado
-DELETE http://localhost:3000/empleado/2              
+DELETE http://localhost:3000/empleado/4              
